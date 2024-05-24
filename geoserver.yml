@@ -209,12 +209,12 @@ spring.config.activate.on-profile: pgconfig
 backend.pgconfig: true
 # configure the jndi jdbc datasource with the placeholders defined in jndi.yml
 jndi.pgconfig.enabled: true
-pgconfig.host: pgconfigdb
+pgconfig.host: postgis
 pgconfig.port: 5432
-pgconfig.database: pgconfig
+pgconfig.database: geoserver
 pgconfig.schema: pgconfig
-pgconfig.username: pgconfig
-pgconfig.password: pgconfig
+pgconfig.username: geoserver
+pgconfig.password: geoserverpass123-
 pgconfig.maxConnections: 10
 pgconfig.minConnections: 0
 pgconfig.connectionTimeout: 2500
